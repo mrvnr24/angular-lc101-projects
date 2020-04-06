@@ -1,0 +1,9 @@
+.movies h3{
+    color: darkslateblue;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.movies ol {
+    color: indianred;
+}
