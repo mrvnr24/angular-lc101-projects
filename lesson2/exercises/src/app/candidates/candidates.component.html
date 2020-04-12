@@ -3,9 +3,9 @@
     <br>
     <div class="row justify-content-center">
         <div class="candidates col-3">
-            <h2 (click)='true'>Candidates</h2>
+            <h2>Candidates</h2>
             <ol>
-                <li #selectedName *ngFor ="let candidate of candidates" >{{candidate.name}}</li>
+                <li #selectedName *ngFor ="let candidate of candidates" (click)='true'>{{candidate.name}}</li>
             </ol>
         </div>
     
